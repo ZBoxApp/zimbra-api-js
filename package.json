@@ -1,0 +1,31 @@
+{
+  "name": "zimbra-api-js",
+  "version": "0.0.1",
+  "description": "JS Wrapper for Zimbra SOAP as normal user",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZBoxApp/zimbra-api-js.git"
+  },
+  "keywords": [
+    "zimbra",
+    "nodejs"
+  ],
+  "author": "Patricio Bruna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZBoxApp/zimbra-api-js/issues"
+  },
+  "homepage": "https://github.com/ZBoxApp/zimbra-api-js#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "js-zimbra": "^1.0.0-beta.6"
+  }
+}
